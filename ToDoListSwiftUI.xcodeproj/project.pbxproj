@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF0950C925EB756700C009D9 /* TaskListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0950C825EB756700C009D9 /* TaskListViewModel.swift */; };
+		CF0950D925EB9E3F00C009D9 /* TaskEmptyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0950D825EB9E3F00C009D9 /* TaskEmptyCell.swift */; };
 		CF2C50E52439AB0E00C493A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2C50E42439AB0E00C493A1 /* AppDelegate.swift */; };
 		CF2C50E72439AB0E00C493A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2C50E62439AB0E00C493A1 /* SceneDelegate.swift */; };
 		CF2C50E92439AB0E00C493A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2C50E82439AB0E00C493A1 /* ContentView.swift */; };
@@ -15,6 +17,9 @@
 		CF2C50F12439AB0F00C493A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2C50EF2439AB0F00C493A1 /* LaunchScreen.storyboard */; };
 		CF2C50FC2439AB0F00C493A1 /* ToDoListSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2C50FB2439AB0F00C493A1 /* ToDoListSwiftUITests.swift */; };
 		CF2C51072439AB0F00C493A1 /* ToDoListSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2C51062439AB0F00C493A1 /* ToDoListSwiftUIUITests.swift */; };
+		CF2C9B4E25EBB1DC00865F37 /* CreateTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2C9B4D25EBB1DC00865F37 /* CreateTaskView.swift */; };
+		CF37E05F25EB4F1F00C34D15 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF37E05E25EB4F1F00C34D15 /* TaskListView.swift */; };
+		CF37E06425EB510200C34D15 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF37E06325EB510200C34D15 /* TaskCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF0950C825EB756700C009D9 /* TaskListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewModel.swift; sourceTree = "<group>"; };
+		CF0950D825EB9E3F00C009D9 /* TaskEmptyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEmptyCell.swift; sourceTree = "<group>"; };
 		CF2C50E12439AB0E00C493A1 /* ToDoListSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoListSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF2C50E42439AB0E00C493A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF2C50E62439AB0E00C493A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,9 @@
 		CF2C51022439AB0F00C493A1 /* ToDoListSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF2C51062439AB0F00C493A1 /* ToDoListSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListSwiftUIUITests.swift; sourceTree = "<group>"; };
 		CF2C51082439AB0F00C493A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF2C9B4D25EBB1DC00865F37 /* CreateTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskView.swift; sourceTree = "<group>"; };
+		CF37E05E25EB4F1F00C34D15 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		CF37E06325EB510200C34D15 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +86,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF0950DD25EBB16200C009D9 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				CF37E05E25EB4F1F00C34D15 /* TaskListView.swift */,
+				CF0950C825EB756700C009D9 /* TaskListViewModel.swift */,
+				CF37E06325EB510200C34D15 /* TaskCell.swift */,
+				CF0950D825EB9E3F00C009D9 /* TaskEmptyCell.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		CF0950DE25EBB18900C009D9 /* Create */ = {
+			isa = PBXGroup;
+			children = (
+				CF2C9B4D25EBB1DC00865F37 /* CreateTaskView.swift */,
+			);
+			path = Create;
+			sourceTree = "<group>";
+		};
 		CF2C50D82439AB0E00C493A1 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +128,8 @@
 		CF2C50E32439AB0E00C493A1 /* ToDoListSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				CF0950DE25EBB18900C009D9 /* Create */,
+				CF0950DD25EBB16200C009D9 /* List */,
 				CF2C50E42439AB0E00C493A1 /* AppDelegate.swift */,
 				CF2C50E62439AB0E00C493A1 /* SceneDelegate.swift */,
 				CF2C50E82439AB0E00C493A1 /* ContentView.swift */,
@@ -267,8 +298,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF0950C925EB756700C009D9 /* TaskListViewModel.swift in Sources */,
+				CF2C9B4E25EBB1DC00865F37 /* CreateTaskView.swift in Sources */,
 				CF2C50E52439AB0E00C493A1 /* AppDelegate.swift in Sources */,
+				CF0950D925EB9E3F00C009D9 /* TaskEmptyCell.swift in Sources */,
 				CF2C50E72439AB0E00C493A1 /* SceneDelegate.swift in Sources */,
+				CF37E05F25EB4F1F00C34D15 /* TaskListView.swift in Sources */,
+				CF37E06425EB510200C34D15 /* TaskCell.swift in Sources */,
 				CF2C50E92439AB0E00C493A1 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,7 +402,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +456,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
